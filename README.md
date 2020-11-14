@@ -1,1 +1,2 @@
-# photoeditor
+# Photoeditor </br>
+Programming project
