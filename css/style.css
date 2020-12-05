@@ -1,1 +1,86 @@
+#uploader {
+    text-align: center;
+    background-color: #757C96;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin: auto;
+}
 
+.img-nav {
+    width: 60px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.img-nav:hover {
+    box-shadow: 0 0 11px rgba(10, 8, 8, 0.2);
+    background-color: #8088a7;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-delay: 1sec;
+}
+
+.title {
+    font-family: monospace;
+    text-align: center;
+    font-size: 17px;
+}
+
+#text-png {
+    width: 40px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+#navigation {
+    background-color: #757C96;
+    width: 100px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 3px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: #757C96;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: #424758;
+    border-radius: 5px;
+    transform: scale(1.1);
+    transition-delay: 1sec;
+}
+
+.no-js .inputfile + label {
+    display: none;
+}
+
+#label-file {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.hr-line {
+    background-color: #d8c9b4;
+    width: 80px;
+    border-top: 1px;
+}
+
+.menu {
+    outline: none;
+}
