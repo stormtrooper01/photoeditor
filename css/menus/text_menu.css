@@ -26,3 +26,27 @@
 .menu-li-text:hover .li-a-text {
     color: #757C96;
 }
+
+#cursive-li {
+    font-family: cursive;
+}
+
+#fantasy-li {
+    font-family: fantasy;
+}
+
+#inherit-li {
+    font-family: inherit;
+}
+
+#sans-serif-li {
+    font-family: sans-serif;
+}
+
+#serif-li {
+    font-family: serif;
+}
+
+#monospace-li {
+    font-family: monospace;
+}
