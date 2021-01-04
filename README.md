@@ -3,6 +3,13 @@
 
 [![license](https://img.shields.io/github/license/stormtrooper01/photoeditor.svg)](https://github.com/stormtrooper01/photoeditor/blob/main/LICENSE)
 
+## 📌 Table of contents
+- [About](#-about)
+- [Features](#-features)
+- [Demo](#-demo)
+- [Missing a feature?](#-missing-a-feature)
+- [License](#-license)
+
 ## 🌌 About
 
 The photo editor couldn’t be easier to use. No complicated tools or confusing interface – just simple obvious tools that transform your photo. Enhance your photo in one click with the range of filters. Crop and resize your photo in mere seconds. Add different shaped figures and text.
