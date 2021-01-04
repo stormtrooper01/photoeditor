@@ -19,6 +19,8 @@ The photo editor couldn’t be easier to use. No complicated tools or confusing 
 
 ## 🎬 Demo
 
+![](examples/screenshot_main.png)
+
 ## 🖖 Missing a feature?
 
 Feel free to **file a new issue** with a propriate title and description on the [stormtrooper01/photoeditor](https://github.com/stormtrooper01/photoeditor/issues) repository.
