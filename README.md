@@ -2,6 +2,7 @@
 > Photo editor using HTML5 Canvas. Has many features and easy to use. </br>
 
 [![license](https://img.shields.io/github/license/stormtrooper01/photoeditor.svg)](https://github.com/stormtrooper01/photoeditor/blob/main/LICENSE)
+![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 
 ## 📌 Table of contents
 - [About](#-about)
