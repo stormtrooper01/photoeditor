@@ -11,21 +11,28 @@
 .menu-ul {
     position: fixed;
     left: -500px;
-    height: 478px;
+    height: 500px;
     width: 250px;
-    background: #f2e8ca;
-    border-radius: 4px;
+    background: #f2dcca;
     color: white;
-    margin-left: 110px;
-    margin-top: -67px;
+    margin-left: 108px;
+    margin-top: -69px;
     overflow: scroll;
     overflow-x: hidden;
-    max-height: 478px;
+    max-height: 500px;
 }
 
 .menu:focus-within .menu-ul {
     left: 0;
     transition: 0.6s;
+}
+
+.navigation-item:focus-within {
+    background-color: #f2dcca;
+}
+
+.navigation-item:focus-within .img-nav {
+    background-color: #f2dcca;
 }
 
 ::-webkit-scrollbar {
