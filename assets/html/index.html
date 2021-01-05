@@ -9,13 +9,20 @@
     <link rel="stylesheet" href="css/filter_menu.css">
     <link rel="stylesheet" href="css/edit_and_shape_menu.css">
     <link rel="stylesheet" href="css/drawing_menu.css">
-    <link rel="stylesheet" href="css/text_menu.css"> </head>
+    <link rel="stylesheet" href="css/text_menu.css">
+    <link rel="stylesheet" href="css/right_buttons.css">
+</head>
 
 <body>
     <div id="uploader">
         <input type="file" id="file" class="inputfile" name="file">
         <label for="file" id="label-file">Choose a file</label>
     </div>
+
+    <button id="undo" class="right-buttons" title="undo"><img src="images/undo.png" alt="undo" class="img-right-buttons"></button>
+    <button id="redo" class="right-buttons" title="redo"><img src="images/redo.png" alt="redo" class="img-right-buttons"></button>
+    <button id="reset" class="right-buttons" title="reset"><img src="images/reset.png" alt="reset" class="img-right-buttons"></button>
+
     <!--Sidebar icons -->
     <section id="sidebar">
         <div id="navigation">
@@ -109,12 +116,13 @@
                 <div class="title" id="text-title">TEXT</div>
             </div>
         </div>
+
+
     </section>
-    <div>
-        <canvas id="canvas"></canvas>
-    </div>
+
+<canvas id="canvas"></canvas>
+
 </body>
 <script src="js/script.js"></script>
 
 </html>
-
