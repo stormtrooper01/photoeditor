@@ -17,6 +17,36 @@ The photo editor couldn’t be easier to use. No complicated tools or confusing 
 
 ## 📚 Features
 
+- Upload image fron device
+- Apply different filters
+  - Sepia
+  - Greyscale
+  - Sepia-2
+  - Blur
+  - Gradient
+- Edit and adjust photo
+  - Crop
+  - Rotate
+  - Resize
+  - Round
+- Draw on photo
+  - Pencil
+  - Circle
+  - Spray
+- Add shapes to photo
+  - Circle
+  - Rectabgle
+  - Triangle
+  - Ellipse
+- Add text
+  - Cursive font
+  - Fantasy font
+  - Inherit
+  - Sans-serif
+  - Serif
+  - Monospace
+- Undo/redo/reset with special buttons
+
 ## 🎬 Demo
 
 ![](examples/screenshot_main.png)
