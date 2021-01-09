@@ -17,13 +17,14 @@ The photo editor couldn’t be easier to use. No complicated tools or confusing 
 
 ## 📚 Features
 
-- Upload image fron device
+- Upload image from device
 - Apply different filters
   - Sepia
   - Greyscale
-  - Sepia-2
-  - Blur
-  - Gradient
+  - Invert
+  - RGB - RBG 
+  - RGB - BGR
+  - RBG - GBR
 - Edit and adjust photo
   - Crop
   - Rotate
@@ -45,7 +46,7 @@ The photo editor couldn’t be easier to use. No complicated tools or confusing 
   - Sans-serif
   - Serif
   - Monospace
-- Undo/redo/reset with special buttons
+- Undo/clear/download with special buttons
 
 ## 🎬 Demo
 
