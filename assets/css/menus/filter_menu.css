@@ -12,7 +12,7 @@
 }
 
 .li-a-filter {
-    margin-top: 80px;
+    margin-top: 5px;
     text-align: center;
     text-decoration: none;
     text-align: center;
@@ -39,17 +39,36 @@
     background-size: 150px;
 }
 
-#sepia2-li {
-    background-image: url(../images/sepia2.jpeg);
+#invert-li {
+    background-image: url(../images/invert.jpg);
     background-size: 150px;
 }
 
-#blur-li {
-    background-image: url(../images/blur.jpeg);
+#rbg-li {
+    background-image: url(../images/rbg.jpg);
     background-size: 150px;
 }
 
-#gradient-li {
-    background-image: url(../images/gradient.jpeg);
+#bgr-li {
+    background-image: url(../images/bgr.jpg);
     background-size: 150px;
+}
+
+#gbr-li {
+    background-image: url(../images/gbr.jpg);
+    background-size: 150px;
+}
+
+.filter-btn {
+    background-size: 150px;
+    width: 130px;
+    height: 80px;
+    background: transparent;
+    border: none !important;
+    box-sizing: 150px;
+    outline: 0;
+}
+
+.filter-btn:hover {
+    cursor: pointer;
 }
