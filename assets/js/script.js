@@ -1,5 +1,3 @@
-'use strict';
-
 let canv = document.getElementById('canvas');
 let ctx = canv.getContext('2d');
 
@@ -22,4 +20,20 @@ function uploadImage(e) {
 }
 
 const imageLoader = document.getElementById('file');
-imageLoader.addEventListener('change', uploadImage)
+imageLoader.addEventListener('change', uploadImage);
+
+function clearChanges() {
+    img.src = reader.result
+};
+
+document.querySelectorAll("button").addEventListener("click", clearChanges);
+
+function download() {
+    const image = canv.toDataURL();
+    const link = document.createElement('a');
+    link.href = image;
+    link.download = "image.png";
+    link.click();
+}
+
+document.querySelectorAll("button").addEventListener("click", download);
