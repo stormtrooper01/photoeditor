@@ -20,29 +20,50 @@
     </div>
 
     <button id="undo" class="right-buttons" title="undo"><img src="images/undo.png" alt="undo" class="img-right-buttons"></button>
-    <button id="redo" class="right-buttons" title="redo"><img src="images/redo.png" alt="redo" class="img-right-buttons"></button>
-    <button id="reset" class="right-buttons" title="reset"><img src="images/reset.png" alt="reset" class="img-right-buttons"></button>
+    <button id="clear" class="right-buttons" title="clear" onclick="clearChanges()"><img src="images/clear.png" alt="clear" class="img-right-buttons"></button>
+    <button id="download" class="right-buttons" title="download" onclick="download()"><img src="images/iconfinder_import-download-save_2931171.png" alt="download" class="img-right-buttons"></button>
 
     <!--Sidebar icons -->
     <section id="sidebar">
         <div id="navigation">
+
             <!--Filters menu-->
             <div class="navigation-item" id="filters">
                 <div class="menu" tabindex="1"> <img src="images/filters.png" alt="filters" id="filter-png" class="img-nav">
                     <div class="list">
                         <ul class="menu-ul">
                             <h2 class="menu-header">PICK A FILTER</h2>
-                            <li id="sepia-li" class="menu-li-filter"><a href="#" class="li-a-filter">SEPIA</a></li>
-                            <li id="grey-li" class="menu-li-filter"><a href="#" class="li-a-filter">GREYSCALE</a></li>
-                            <li id="sepia2-li" class="menu-li-filter"><a href="#" class="li-a-filter">SEPIA-2</a></li>
-                            <li id="blur-li" class="menu-li-filter"><a href="#" class="li-a-filter">BLUR</a></li>
-                            <li id="gradient-li" class="menu-li-filter"><a href="#" class="li-a-filter">GRADIENT</a></li>
+                            <li id="sepia-li" class="menu-li-filter">
+                                <button onclick="sepia()" id="btn-3" class="filter-btn"></button>
+                                <a href="#" class="li-a-filter">SEPIA</a>
+                            </li>
+                            <li id="grey-li" class="menu-li-filter">
+                                <button onclick="greyscale()" id="btn-4" class="filter-btn"></button>
+                                <a href="#" class="li-a-filter">GREYSCALE</a>
+                            </li>
+                            <li id="invert-li" class="menu-li-filter">
+                                <button onclick="invert()" id="btn-5" class="filter-btn"></button>
+                                <a href="#" class="li-a-filter">INVERT</a>
+                            </li>
+                            <li id="rbg-li" class="menu-li-filter">
+                                <button onclick="rbg()" id="btn-6" class="filter-btn"></button>
+                                <a href="#" class="li-a-filter">RGB - RBG</a></li>
+                            <li id="bgr-li" class="menu-li-filter">
+                               <button onclick="bgr()" id="btn-7" class="filter-btn"></button>
+                               <a href="#" class="li-a-filter">RGB - BGR</a>
+                            </li>
+                            <li id="gbr-li" class="menu-li-filter">
+                               <button onclick="gbr()" id="btn-8" class="filter-btn"></button>
+                               <a href="#" class="li-a-filter">RGB - GBR</a>
+                            </li>
+
                         </ul>
                     </div>
                 </div>
                 <div class="title" id="filters-title">FILTERS</div>
             </div>
             <hr class="hr-line">
+
             <!--Edit menu-->
             <div class="navigation-item" id="edit">
                 <div class="menu" tabindex="1"> <img src="images/image.png" alt="edit" id="edit-png" class="img-nav">
@@ -62,6 +83,7 @@
                 </div>
             </div>
             <hr class="hr-line" id="under-edit">
+
             <!--Drawing menu-->
             <div class="navigation-item" id="drawing">
                 <div class="menu" tabindex="1"> <img src="images/brush.png" alt="drawing" id="drawing-png" class="img-nav">
@@ -116,13 +138,15 @@
                 <div class="title" id="text-title">TEXT</div>
             </div>
         </div>
-
-
     </section>
 
+<!--Add canvas-->
 <canvas id="canvas"></canvas>
 
 </body>
+
 <script src="js/script.js"></script>
+<script src="js/filters.js"></script>
 
 </html>
+
