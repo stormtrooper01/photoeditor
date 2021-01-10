@@ -17,14 +17,14 @@ The photo editor couldn’t be easier to use. No complicated tools or confusing 
 
 ## 📚 Features
 
-- Upload image from device
-- Apply different filters
-  - Sepia
-  - Greyscale
-  - Invert
-  - RGB - RBG 
-  - RGB - BGR
-  - RBG - GBR
+- ✅Upload image from device
+- ✅Apply different filters
+  - ✅Sepia
+  - ✅Greyscale
+  - ✅Invert
+  - ✅RGB - RBG 
+  - ✅RGB - BGR
+  - ✅RBG - GBR
 - Edit and adjust photo
   - Crop
   - Rotate
