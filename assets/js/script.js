@@ -24,7 +24,7 @@ imageLoader.addEventListener('change', uploadImage);
 //Clear changes
 
 function clearChanges() {
-    img.src = reader.result
+    img.src = reader.result;
 };
 
 document.querySelectorAll("button").addEventListener("click", clearChanges);
