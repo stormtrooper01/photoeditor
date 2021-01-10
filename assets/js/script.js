@@ -3,9 +3,6 @@
 let canv = document.getElementById('canvas');
 let ctx = canv.getContext('2d');
 
-canv.width = window.innerWidth;
-canv.height = window.innerHeight;
-
 const img = new Image();
 const reader = new FileReader();
 
@@ -14,12 +11,12 @@ function uploadImage(e) {
     reader.onload = () => {
         img.src = reader.result;
         img.onload = () => {
-            canvas.width = img.width;
-            canvas.height = img.height;
+            canv.width = img.width;
+            canv.height = img.height;
             ctx.drawImage(img, 0, 0);
-        }
-    }
-}
+        };
+    };
+};
 
 const imageLoader = document.getElementById('file');
 imageLoader.addEventListener('change', uploadImage);
@@ -40,6 +37,6 @@ function download() {
     link.href = image;
     link.download = "image.png";
     link.click();
-}
+};
 
 document.querySelectorAll("button").addEventListener("click", download);
